@@ -1,0 +1,65 @@
+ENTITA'
+
+Basandomi sui campi forniti nel dataset, posso identificare le seguenti entità:
+
+Prodotti: Rappresenta i prodotti disponibili per l'acquisto.
+Attributi: COD PROD, CATPROD, Prodotto, Prezzo unitario.
+
+Collaboratori: Rappresenta i collaboratori che effettuano gli ordini.
+Attributi: Collaboratore.
+
+Ordini: Rappresenta gli ordini effettuati dai collaboratori.
+Attributi: COD PROD, Collaboratore, Regione, Data ordine, Quantità.
+
+
+
+
+CAMPI
+
+
+COD PROD.1 e COD PROD.2: Identificatori del prodotto.
+Collaboratore: Nome del collaboratore che ha effettuato l'ordine.
+Regione: Regione in cui è stato effettuato l'ordine.
+Data ordine: Data in cui è stato effettuato l'ordine.
+CATPROD: Categoria e Nome del prodotto.
+Prezzo unitario: Prezzo unitario del prodotto.
+Quantità: Quantità di prodotti ordinati.
+TOTALE: Rappresenta il totale di quantita per prezzo.
+Caratteri finali: caratteri estratti dalla colonna CODPROD.
+IVA: iva contata sul prezzo unitario.
+E altri colonne personalizzate tramite colonne SE e colonna
+DA ESEMPI. 
+
+
+
+
+CHIAVI PRIMARIE
+
+CODPROD: Identificatore univoco del prodotto.
+COLLABORATORE: Identificatore univoco del collaboratore.
+
+
+
+
+TIPOLOGIA DEI DATI
+
+COD PROD.1: Stringa
+COD PROD.2: Numerico intero
+Collaboratore: Stringa
+Regione: Stringa
+Data ordine: Data
+Categoria: Stringa
+Prodotto: Stringa
+Prezzo unitario: Numerico decimale
+Quantità: Numerico intero
+Totale: Numerico decimale
+IVA: Numerico Decimale
+Caratteri finali: Numerico Intero
+SE: Stringa
+Se dopo aprile: Stringa
+Prodotti: Stringa
+Personalizzato: Numerico Intero
+
+
+
+
